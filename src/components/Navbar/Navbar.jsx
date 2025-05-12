@@ -23,6 +23,12 @@ const Navbar = () => {
           >
             Form Renderer
           </Link>
+          <Link
+            className={isActive("/testpage") ? styles.active : ""}
+            to="/testpage"
+          >
+            Test Page
+          </Link>
         </div>
       </nav>
     </div>

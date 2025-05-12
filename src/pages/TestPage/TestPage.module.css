@@ -1,0 +1,165 @@
+/* File: FlightSearchPage.module.css */
+
+.container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    direction: rtl;
+    padding: 20px;
+    background-color: #f0f4f8;
+}
+
+.containerEn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    direction: ltr;
+    padding: 20px;
+    background-color: #f0f4f8;
+}
+
+.searchButton {
+    background-color: #e63946;
+    color: white;
+    border: none;
+    padding: 30px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.optionsBox {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 250px;
+}
+
+.select {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.dateBox {
+    display: flex;
+    gap: 10px;
+}
+
+.dateItem {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 0px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.routeBox {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 14px;
+}
+
+.dateInput {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.customDate {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 21px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.dayName {
+    font-size: 14px;
+    color: #333;
+}
+
+.dayMonth {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+.placeholder {
+    color: #888;
+    font-size: 14px;
+}
+
+.dateLabel {
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #444;
+}
+
+.calendar {
+    font-family: 'Arial', sans-serif;
+}
+
+.routeItem {
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+
+.optionItem {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+
+.dropdownArrow {
+    width: 16px;
+    height: 16px;
+    fill: #444;
+}
+
+.custom__control {
+    padding: 6px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    min-width: 180px;
+}
+
+.custom__menu {
+    z-index: 10;
+}
+
+.custom__single-value {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.routeIcon {
+    width: 20px;
+    height: 20px;
+    fill: #444;
+    font-size: 16px;
+    color: #444;
+}
